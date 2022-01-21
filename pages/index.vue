@@ -20,7 +20,7 @@
             "
             size="150"
           >
-            <v-img src="profile/profile.jpeg" alt="Matias Fanger" />
+            <v-img src="profile/profile.png" alt="Matias Fanger" />
           </v-avatar>
           <!-- About me -->
           <v-card color="rgb(44, 64, 90, 0.0)" style="" outlined elevation="10">
@@ -35,7 +35,7 @@
                 I am a Full Stack Web Developer based in <span class="light-blue--text">Arg</span><span class="white--text">ent</span><span class="light-blue--text">ina</span>
               </h5>
               <h5 class="mt-6">
-                I love working with Nuxt, Vue, Vuetify, Node, Firebase and much
+                I love working with Nuxt, Vue, Vuetify, Tailwind, Python, Node, Firebase and much
                 more! <v-icon color="blue">mdi-console-network</v-icon>
               </h5>
               <h5 class="mt-6">Send me a PM if you need some help.</h5>
@@ -59,16 +59,9 @@
 
             <div color="rgb(44, 64, 90, 0.5)">
               <v-btn
-                class="ma-3"
-                href="https://amplify-amplify1ffee8250a8b4-staging-84023-deployment.s3.us-east-2.amazonaws.com/CV+MATIAS+IVAN+FANGER.pdf"
-                target="_blank"
-                color="success"
+              class="mt-2"
                 outlined
-                >CV<v-icon right>mdi-file</v-icon></v-btn
-              >
-              <v-btn
-                outlined
-                href="https://amplify-amplify1ffee8250a8b4-staging-84023-deployment.s3.us-east-2.amazonaws.com/CV+MATIAS+IVAN+FANGER+ENG.pdf"
+                href="https://drive.google.com/file/d/1WmrjHfjrHsh4f5yvJ_CR6JlFL-CmRG4I/view?usp=sharing"
                 color="success"
                 target="_blank"
                 >Resume<v-icon right>mdi-file</v-icon></v-btn
@@ -182,23 +175,57 @@ export default {
           name: "Vaccine World Tracker",
           url: "https://vaccine-world-tracker.netlify.app/",
           description: "Vaccine's information around the World!",
+          stack: ['vue', 'vuetify', 'nuxt', 'node', 'netlify', 'api' ],
           image: "https://i.gyazo.com/af1bddfd8dd9672345c61fb6eab5853a.png",
           github: "https://github.com/matifanger/vaccine-world-tracker",
         },
         {
-          name: "MONSTERKILL",
-          url: "https://monsterkill.gg",
-          description: "This is my little startup. Work in progress...",
-          image: "https://i.gyazo.com/89161b18f322ae6703359d3acc81a26f.jpg",
-          github: "",
-          glow: true,
+          name: "Axie Partners",
+          url: "https://axie.partners",
+          description: "Hire or get hired in Axie Infinity!",
+          stack: ['vue', 'vuetify', 'nuxt', 'node' ],
+          image: "https://i.gyazo.com/c501cadf0412e81ebbc51f258470751e.jpg",
+          github: "https://github.com/matifanger/axie-partners",
         },
         {
-          name: "PROXY Database",
+          name: "Protected Bookmarks",
+          url: "https://protected-bookmarks.netlify.app/",
+          description: "Save your bookmarks in the cloud!",
+          stack: ['vue', 'tailwind', 'nuxt', 'node', 'firebase', 'netlify' ],
+          image: "https://i.gyazo.com/0794beaeb2eee369047f137fbbc4a7ce.png",
+          github: "https://github.com/matifanger/protected-bookmarks-v2",
+        },
+        {
+          name: "SLP graph price",
+          url: "https://vaccine-world-tracker.netlify.app/",
+          description: "Simple SLP price graph.",
+          stack: ['vue', 'vuetify', 'nuxt', 'node', 'firebase', 'api'],
+          image: "https://i.gyazo.com/43c8a4dbce01548e3db7bddc97db3830.png",
+          github: "slp-price.netlify.app/",
+        },
+        {
+          name: "Free Proxy",
           url: "https://master.d3r5rgkuxurm4k.amplifyapp.com",
           description: "You can get some free proxies right here.",
+          stack: ['vue', 'vuetify', 'nuxt', 'node', 'firebase', 'netlify'],
           image: "https://i.gyazo.com/72c2cae932ae2ea057cbe6bcbddc5cf7.png",
           github: "https://github.com/matifanger/freeproxy",
+        },
+        {
+          name: "IP Logger",
+          url: "https://lcloud-support.netlify.app/",
+          description: "Obtain system and location information.",
+          stack: ['vue', 'vuetify', 'nuxt', 'node', 'firebase', 'netlify'],
+          image: "https://i.gyazo.com/404fb79c7930d1a8287ecc89277a4f3e.png",
+          github: "https://github.com/matifanger/ip-logger",
+        },
+        {
+          name: "WZ-Statistics",
+          url: "https://wz-statistics.herokuapp.com",
+          description: "See your stats in COD Warzone and calculate your next kd",
+          stack: ['vue', 'vuetify', 'nuxt', 'node', 'heroku'],
+          image: "https://i.gyazo.com/00a1f17ec85020f03a1d7b90d7900e0f.png",
+          github: "https://github.com/matifanger/WZ-Statistics",
         },
       ],
     };
