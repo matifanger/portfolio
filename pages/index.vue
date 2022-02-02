@@ -197,11 +197,19 @@ export default {
         },
         {
           name: "SLP graph price",
-          url: "https://vaccine-world-tracker.netlify.app/",
+          url: "https://slp-price.netlify.app/",
           description: "Simple SLP price graph.",
           stack: ['vue', 'vuetify', 'nuxt', 'node', 'firebase', 'api'],
           image: "https://i.gyazo.com/43c8a4dbce01548e3db7bddc97db3830.png",
-          github: "slp-price.netlify.app/",
+          github: "https://github.com/matifanger/slp-price",
+        },
+        {
+          name: "CSGO CONFIG MANAGER",
+          url: "https://csgo-config-manager.netlify.app/",
+          description: "Optimize your config to maximize your FPS in CSGO",
+          stack: ['vue', 'Tailwind CSS', 'nuxt'],
+          image: "https://github.com/matifanger/csgo-config-manager/raw/master/.github/main.png",
+          github: "https://github.com/matifanger/csgo-config-manager",
         },
         {
           name: "Free Proxy",
